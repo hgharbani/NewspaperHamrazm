@@ -8,19 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace NewspaperHamrazm
+namespace NewspaperHamrazm.News
 {
-    public partial class Form1 : Form
+    public partial class CreateOrUpdate : Form
     {
-        public Form1()
+        public CreateOrUpdate()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Index index=new Index();
-            index.Show();
         }
     }
 }

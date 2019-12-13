@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewspaperHamrazm", "NewspaperHamrazm\NewspaperHamrazm.csproj", "{885C4754-9EB1-4911-9C26-B5D0DCDA2C73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPaperHamrazm.DataLayer", "NewsPaperHamrazm.DataLayer\NewsPaperHamrazm.DataLayer.csproj", "{A5467895-DF40-4329-878E-8982E733DE2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPaperHamRazm.Services", "NewsPaperHamRazm.Services\NewsPaperHamRazm.Services.csproj", "{08B2DC1C-402E-4584-8865-D0D9E7C696DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{885C4754-9EB1-4911-9C26-B5D0DCDA2C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{885C4754-9EB1-4911-9C26-B5D0DCDA2C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{885C4754-9EB1-4911-9C26-B5D0DCDA2C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5467895-DF40-4329-878E-8982E733DE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5467895-DF40-4329-878E-8982E733DE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5467895-DF40-4329-878E-8982E733DE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5467895-DF40-4329-878E-8982E733DE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B2DC1C-402E-4584-8865-D0D9E7C696DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B2DC1C-402E-4584-8865-D0D9E7C696DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B2DC1C-402E-4584-8865-D0D9E7C696DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B2DC1C-402E-4584-8865-D0D9E7C696DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

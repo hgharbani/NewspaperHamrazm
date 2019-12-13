@@ -8,19 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace NewspaperHamrazm
+namespace NewspaperHamrazm.News
 {
-    public partial class Form1 : Form
+    public partial class Index : Form
     {
-        public Form1()
+        public Index()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            Index index=new Index();
-            index.Show();
+            var createNews = new CreateOrUpdate();
+            var result = createNews.ShowDialog();
         }
     }
 }
