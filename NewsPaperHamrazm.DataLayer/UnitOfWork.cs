@@ -18,7 +18,7 @@ namespace NewsPaperHamrazm.DataLayer
         private ICityServices _cityServices;
         private ICategoryServices _categoryServices;
         private INewsServices _newsServices;
-
+        
      
         public IUserService UserServices
         {

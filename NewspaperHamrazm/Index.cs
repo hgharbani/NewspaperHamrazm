@@ -39,5 +39,10 @@ namespace NewspaperHamrazm
             var newIndex = new News.Index();
             newIndex.ShowDialog();
         }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

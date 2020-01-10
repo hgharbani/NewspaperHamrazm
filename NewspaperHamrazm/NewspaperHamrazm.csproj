@@ -160,6 +160,8 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\NewsPaperHamrazm.DataLayer.Repositories.Category.datasource" />
+    <None Include="Properties\DataSources\NewsPaperHamrazm.DataLayer.Repositories.City.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -190,6 +192,15 @@
       <Project>{A5467895-DF40-4329-878E-8982E733DE2B}</Project>
       <Name>NewsPaperHamrazm.DataLayer</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-31.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

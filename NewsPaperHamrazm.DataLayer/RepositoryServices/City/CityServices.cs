@@ -110,7 +110,7 @@ namespace NewsPaperHamrazm.DataLayer.RepositoryServices.City
                 result.Message = "شهر یافت نشد";
             }
             _db.Entry(city).State = EntityState.Modified;
-            result.Message = "کاربر تعریف شدرمز عبور با موفقیت تغییر  یافت";
+            result.Message = "با موفقیت تغییر  یافت";
             return result;
 
         }
@@ -154,7 +154,7 @@ namespace NewsPaperHamrazm.DataLayer.RepositoryServices.City
                     return result;
                 }
 
-                if (foodCompanyModel.Newses.Any())
+                if (foodCompanyModel.NewsRelationses.Any())
                 {
                     result.IsChange = false;
                     result.Message = "قادر به حذف این شهر نمی باشد زیرا دارای چند خبر می باشد";
@@ -173,5 +173,10 @@ namespace NewsPaperHamrazm.DataLayer.RepositoryServices.City
             }
         }
 
+        public  IList<Repositories.City> GetByParamert(string CompanyParaMert)
+        {
+            var result = _db.Cities.AsNoTracking().Include(a => a.NewsRelationses).Where(a => a.CityName.Contains(CompanyParaMert)).ToList();
+            return result;
+        }
     }
 }

@@ -20,6 +20,6 @@ namespace NewsPaperHamrazm.DataLayer.Repositories
         /// <summary>
         /// 
         /// </summary>
-        public virtual  ICollection<News> Newses { get; set; }
+        public virtual  ICollection<NewsRelations> NewsRelationses { get; set; }
     }
 }

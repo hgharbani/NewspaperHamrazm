@@ -78,24 +78,29 @@
     <Compile Include="Repositories\Category.cs" />
     <Compile Include="Repositories\City.cs" />
     <Compile Include="Repositories\News.cs" />
+    <Compile Include="Repositories\NewsRelations.cs" />
+    <Compile Include="Repositories\Source.cs" />
     <Compile Include="Repositories\User.cs" />
     <Compile Include="RepositoryServices\Category\CategoryServices.cs" />
     <Compile Include="RepositoryServices\Category\ICategoryServices.cs" />
     <Compile Include="RepositoryServices\City\CityServices.cs" />
     <Compile Include="RepositoryServices\City\ICityServices.cs" />
+    <Compile Include="RepositoryServices\NewsRelations\INewsRelationsService.cs" />
+    <Compile Include="RepositoryServices\NewsRelations\NewsRelationsService.cs" />
     <Compile Include="RepositoryServices\News\INewsServices.cs" />
     <Compile Include="RepositoryServices\News\NewsServices.cs" />
+    <Compile Include="RepositoryServices\Source\ISourceService.cs" />
+    <Compile Include="RepositoryServices\Source\SourceService.cs" />
     <Compile Include="RepositoryServices\User\IUserService.cs" />
     <Compile Include="RepositoryServices\User\UserRepository.cs" />
     <Compile Include="UnitOfWork.cs" />
+    <Compile Include="ViewModel\NewsModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

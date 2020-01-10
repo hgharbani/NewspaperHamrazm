@@ -152,7 +152,7 @@ namespace NewsPaperHamrazm.DataLayer.RepositoryServices.Category
                     return result;
                 }
 
-                if (foodCompanyModel.Newses.Any())
+                if (foodCompanyModel.NewsRelationses.Any())
                 {
                     result.IsChange = false;
                     result.Message = "قادر به حذف این شهر نمی باشد زیرا دارای چند خبر می باشد";

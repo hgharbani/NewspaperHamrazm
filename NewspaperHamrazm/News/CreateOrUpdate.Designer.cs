@@ -28,22 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.dateTimeInput1 = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
-            this.textBoxX1 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX2 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
+            this.textBoxX2 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.textBoxX1 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.dateTimeInput1 = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.categoryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dateTimeInput1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.categoryBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -67,30 +70,99 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
-            // textBox1
+            // label6
             // 
-            this.textBox1.Location = new System.Drawing.Point(200, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(344, 33);
-            this.textBox1.TabIndex = 0;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(597, 317);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(72, 26);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "متن خبر :";
             // 
-            // listBox1
+            // label5
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 26;
-            this.listBox1.Location = new System.Drawing.Point(200, 90);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(344, 30);
-            this.listBox1.TabIndex = 1;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(597, 255);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(72, 26);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "منبع خبر:";
             // 
-            // listBox2
+            // label4
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 26;
-            this.listBox2.Location = new System.Drawing.Point(200, 143);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(344, 30);
-            this.listBox2.TabIndex = 2;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(597, 198);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(76, 26);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "تاریخ خبر:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(591, 143);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(85, 26);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "منطقه خبر :";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(597, 90);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(79, 26);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "دسته خبر:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(598, 42);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(81, 26);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "عنوان خبر:";
+            // 
+            // buttonX1
+            // 
+            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX1.Location = new System.Drawing.Point(293, 522);
+            this.buttonX1.Name = "buttonX1";
+            this.buttonX1.Size = new System.Drawing.Size(119, 39);
+            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX1.TabIndex = 6;
+            this.buttonX1.Text = "ثبت";
+            // 
+            // textBoxX2
+            // 
+            // 
+            // 
+            // 
+            this.textBoxX2.Border.Class = "TextBoxBorder";
+            this.textBoxX2.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.textBoxX2.Location = new System.Drawing.Point(200, 255);
+            this.textBoxX2.Name = "textBoxX2";
+            this.textBoxX2.PreventEnterBeep = true;
+            this.textBoxX2.Size = new System.Drawing.Size(344, 33);
+            this.textBoxX2.TabIndex = 5;
+            this.textBoxX2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBoxX1
+            // 
+            // 
+            // 
+            // 
+            this.textBoxX1.Border.Class = "TextBoxBorder";
+            this.textBoxX1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.textBoxX1.Location = new System.Drawing.Point(34, 317);
+            this.textBoxX1.Multiline = true;
+            this.textBoxX1.Name = "textBoxX1";
+            this.textBoxX1.PreventEnterBeep = true;
+            this.textBoxX1.Size = new System.Drawing.Size(510, 173);
+            this.textBoxX1.TabIndex = 4;
+            this.textBoxX1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // dateTimeInput1
             // 
@@ -136,99 +208,37 @@
             this.dateTimeInput1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.dateTimeInput1.TabIndex = 3;
             // 
-            // textBoxX1
+            // listBox2
             // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 26;
+            this.listBox2.Location = new System.Drawing.Point(200, 143);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(344, 30);
+            this.listBox2.TabIndex = 2;
             // 
+            // listBox1
             // 
+            this.listBox1.DataSource = this.categoryBindingSource;
+            this.listBox1.DisplayMember = "CategoryId";
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 26;
+            this.listBox1.Location = new System.Drawing.Point(200, 90);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(344, 30);
+            this.listBox1.TabIndex = 1;
+            this.listBox1.ValueMember = "CategoryName";
             // 
-            this.textBoxX1.Border.Class = "TextBoxBorder";
-            this.textBoxX1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX1.Location = new System.Drawing.Point(34, 317);
-            this.textBoxX1.Multiline = true;
-            this.textBoxX1.Name = "textBoxX1";
-            this.textBoxX1.PreventEnterBeep = true;
-            this.textBoxX1.Size = new System.Drawing.Size(510, 173);
-            this.textBoxX1.TabIndex = 4;
-            this.textBoxX1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // textBox1
             // 
-            // textBoxX2
+            this.textBox1.Location = new System.Drawing.Point(200, 39);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(344, 33);
+            this.textBox1.TabIndex = 0;
             // 
+            // categoryBindingSource
             // 
-            // 
-            // 
-            this.textBoxX2.Border.Class = "TextBoxBorder";
-            this.textBoxX2.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX2.Location = new System.Drawing.Point(200, 255);
-            this.textBoxX2.Name = "textBoxX2";
-            this.textBoxX2.PreventEnterBeep = true;
-            this.textBoxX2.Size = new System.Drawing.Size(344, 33);
-            this.textBoxX2.TabIndex = 5;
-            this.textBoxX2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // buttonX1
-            // 
-            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX1.Location = new System.Drawing.Point(293, 522);
-            this.buttonX1.Name = "buttonX1";
-            this.buttonX1.Size = new System.Drawing.Size(119, 39);
-            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX1.TabIndex = 6;
-            this.buttonX1.Text = "ثبت";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(598, 42);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 26);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "عنوان خبر:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(597, 90);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 26);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "دسته خبر:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(591, 143);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 26);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "منطقه خبر :";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(597, 198);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 26);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "تاریخ خبر:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(597, 255);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 26);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "منبع خبر:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(597, 317);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(72, 26);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "متن خبر :";
+            this.categoryBindingSource.DataSource = typeof(NewsPaperHamrazm.DataLayer.Repositories.Category);
             // 
             // CreateOrUpdate
             // 
@@ -246,6 +256,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dateTimeInput1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.categoryBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -266,5 +277,6 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.BindingSource categoryBindingSource;
     }
 }

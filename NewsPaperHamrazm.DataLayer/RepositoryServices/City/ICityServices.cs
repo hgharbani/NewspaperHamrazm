@@ -30,5 +30,6 @@ namespace NewsPaperHamrazm.DataLayer.RepositoryServices.City
         HamrazmResult UpdateCity(Repositories.City city);
         HamrazmResult DeleteCompany(Repositories.City city);
         HamrazmResult DeleteCity(int cityId);
+        IList<Repositories.City> GetByParamert(string CompanyParaMert);
     }
 }

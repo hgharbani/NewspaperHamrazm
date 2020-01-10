@@ -73,6 +73,26 @@ namespace NewspaperHamrazm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Artboard_1 {
+            get {
+                object obj = ResourceManager.GetObject("Artboard 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Artboard_11 {
+            get {
+                object obj = ResourceManager.GetObject("Artboard 11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap login {
             get {
                 object obj = ResourceManager.GetObject("login", resourceCulture);
@@ -106,6 +126,16 @@ namespace NewspaperHamrazm.Properties {
         internal static System.Drawing.Bitmap Untitled_3 {
             get {
                 object obj = ResourceManager.GetObject("Untitled-3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_31 {
+            get {
+                object obj = ResourceManager.GetObject("Untitled-31", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
